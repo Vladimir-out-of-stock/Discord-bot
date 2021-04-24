@@ -30,7 +30,7 @@ elif os.path.isfile('token_discord.txt'):
     TOKEN_DISCORD = TOKENFILE.read()
     TOKENFILE.close()
 else:
-    print('Please provide a token')
+    print('Пожалуйста, впишите токен')
     sys.exit(1)
 
 BOT = commands.Bot(command_prefix='!', case_insensitive=True)
